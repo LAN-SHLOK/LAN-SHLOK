@@ -119,6 +119,18 @@
 
 <img src="https://streak-stats.demolab.com?user=LAN-SHLOK&hide_border=true&background=0D1117&stroke=daa520&ring=cc0000&fire=daa520&currStreakLabel=daa520&sideLabels=cccccc&currStreakNum=cccccc&sideNums=cc0000&dates=666666" width="60%" alt="Streak"/>
 
+<img src="assets/divider-estus.svg" width="100%"/>
+
+<img src="assets/header-trophies.svg" width="100%" alt="Achievements"/>
+
+<br><br>
+
+<img src="https://github-profile-trophy.vercel.app/?username=LAN-SHLOK&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=10" width="90%" alt="Trophies"/>
+
+<br>
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote=Seek+strength.+The+rest+will+follow.&author=Vendrick,+Dark+Souls+II" width="60%" alt="Quote"/>
+
 <img src="assets/divider-swords.svg" width="100%"/>
 
 <img src="assets/header-summon.svg" width="100%" alt="Summon Sign"/>
