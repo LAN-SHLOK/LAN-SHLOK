@@ -1,17 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="40" viewBox="0 0 800 40">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="45" viewBox="0 0 800 45">
   <defs>
     <linearGradient id="fadeL" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" style="stop-color:#daa520;stop-opacity:0"/>
-      <stop offset="100%" style="stop-color:#daa520;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#daa520;stop-opacity:0.7"/>
     </linearGradient>
     <linearGradient id="fadeR" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#daa520;stop-opacity:0.8"/>
+      <stop offset="0%" style="stop-color:#daa520;stop-opacity:0.7"/>
       <stop offset="100%" style="stop-color:#daa520;stop-opacity:0"/>
     </linearGradient>
   </defs>
-  <line x1="30" y1="20" x2="280" y2="20" stroke="url(#fadeL)" stroke-width="0.8"/>
-  <polygon points="285,16 292,20 285,24" fill="#8b6914" opacity="0.6"/>
-  <text x="400" y="25" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#daa520" letter-spacing="6">EQUIPMENT &amp; ATTUNEMENT</text>
-  <polygon points="515,16 508,20 515,24" fill="#8b6914" opacity="0.6"/>
-  <line x1="520" y1="20" x2="770" y2="20" stroke="url(#fadeR)" stroke-width="0.8"/>
+  <line x1="30" y1="22" x2="260" y2="22" stroke="url(#fadeL)" stroke-width="0.8"/>
+  <!-- Left sword icon -->
+  <g transform="translate(270, 22)">
+    <rect x="-1" y="-10" width="2" height="12" fill="#aaa" rx="0.5"/>
+    <polygon points="0,-12 -1.5,-10 1.5,-10" fill="#ccc"/>
+    <rect x="-5" y="2" width="10" height="2" fill="#8b6914" rx="0.5"/>
+  </g>
+  <text x="400" y="27" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#daa520" letter-spacing="5">EQUIPMENT &amp; ATTUNEMENT</text>
+  <!-- Right sword icon -->
+  <g transform="translate(530, 22)">
+    <rect x="-1" y="-10" width="2" height="12" fill="#aaa" rx="0.5"/>
+    <polygon points="0,-12 -1.5,-10 1.5,-10" fill="#ccc"/>
+    <rect x="-5" y="2" width="10" height="2" fill="#8b6914" rx="0.5"/>
+  </g>
+  <line x1="540" y1="22" x2="770" y2="22" stroke="url(#fadeR)" stroke-width="0.8"/>
 </svg>

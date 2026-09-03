@@ -1,34 +1,105 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="220" viewBox="0 0 800 220">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="280" viewBox="0 0 800 280">
   <defs>
     <linearGradient id="panelBg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#151510"/>
-      <stop offset="100%" style="stop-color:#0d0d0a"/>
+      <stop offset="0%" style="stop-color:#14120c"/>
+      <stop offset="100%" style="stop-color:#0c0b08"/>
     </linearGradient>
-    <linearGradient id="goldBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="hpBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#cc0000"/>
+      <stop offset="100%" style="stop-color:#ff2200"/>
+    </linearGradient>
+    <linearGradient id="fpBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1155cc"/>
+      <stop offset="100%" style="stop-color:#3388ff"/>
+    </linearGradient>
+    <linearGradient id="stamBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#228822"/>
+      <stop offset="100%" style="stop-color:#44bb44"/>
+    </linearGradient>
+    <linearGradient id="goldBdr" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#8b6914"/>
       <stop offset="50%" style="stop-color:#daa520"/>
       <stop offset="100%" style="stop-color:#8b6914"/>
     </linearGradient>
   </defs>
-  <!-- Panel background -->
-  <rect x="20" y="10" width="760" height="200" fill="url(#panelBg)" rx="3" stroke="url(#goldBorder)" stroke-width="1.5" opacity="0.95"/>
-  <!-- Inner border -->
-  <rect x="30" y="18" width="740" height="184" fill="none" rx="2" stroke="#8b6914" stroke-width="0.5" opacity="0.4"/>
-  <!-- Section label -->
-  <rect x="300" y="4" width="200" height="18" fill="#0d0d0a" rx="2"/>
-  <text x="400" y="17" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#daa520" letter-spacing="3">STATUS</text>
-  <!-- Stats -->
-  <text x="60" y="55" font-family="'Courier New', monospace" font-size="13" fill="#8b8b8b">NAME</text>
-  <text x="200" y="55" font-family="'Courier New', monospace" font-size="13" fill="#cccccc">Shlok Patel (LAN-SHLOK)</text>
-  <text x="60" y="80" font-family="'Courier New', monospace" font-size="13" fill="#8b8b8b">CLASS</text>
-  <text x="200" y="80" font-family="'Courier New', monospace" font-size="13" fill="#cccccc">Sorcerer / Cleric</text>
-  <text x="60" y="105" font-family="'Courier New', monospace" font-size="13" fill="#8b8b8b">COVENANT</text>
-  <text x="200" y="105" font-family="'Courier New', monospace" font-size="13" fill="#cccccc">Heirs of the Sun</text>
-  <text x="60" y="130" font-family="'Courier New', monospace" font-size="13" fill="#8b8b8b">QUEST</text>
-  <text x="200" y="130" font-family="'Courier New', monospace" font-size="13" fill="#cccccc">Seeking Internship &amp; Expanding Tech Stack</text>
-  <!-- Divider line -->
-  <line x1="50" y1="148" x2="750" y2="148" stroke="#8b6914" stroke-width="0.5" opacity="0.4"/>
-  <!-- Bonfire activities -->
-  <text x="60" y="168" font-family="'Courier New', monospace" font-size="12" fill="#666666">RESTING AT BONFIRE</text>
-  <text x="60" y="190" font-family="'Courier New', monospace" font-size="12" fill="#999999">Anime &amp; Sitcoms  |  Music  |  Beyblade  |  Pokemon</text>
+  <!-- Main panel -->
+  <rect x="25" y="10" width="750" height="260" fill="url(#panelBg)" rx="4" stroke="url(#goldBdr)" stroke-width="1.5"/>
+  <rect x="32" y="16" width="736" height="248" fill="none" rx="3" stroke="#5a4510" stroke-width="0.5" opacity="0.5"/>
+  <!-- STATUS label -->
+  <rect x="330" y="3" width="140" height="18" fill="#0c0b08" rx="9" stroke="#8b6914" stroke-width="0.8"/>
+  <text x="400" y="16" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#daa520" letter-spacing="4">STATUS</text>
+
+  <!-- HP / FP / Stamina bars -->
+  <g transform="translate(50, 40)">
+    <!-- HP -->
+    <text x="0" y="12" font-family="'Courier New', monospace" font-size="10" fill="#cc0000">HP</text>
+    <rect x="30" y="3" width="200" height="12" fill="#1a1a1a" rx="2" stroke="#333" stroke-width="0.5"/>
+    <rect x="30" y="3" width="170" height="12" fill="url(#hpBar)" rx="2"/>
+    <text x="235" y="13" font-family="'Courier New', monospace" font-size="9" fill="#888">22+ REPOS</text>
+    <!-- FP -->
+    <text x="0" y="32" font-family="'Courier New', monospace" font-size="10" fill="#3388ff">FP</text>
+    <rect x="30" y="23" width="200" height="12" fill="#1a1a1a" rx="2" stroke="#333" stroke-width="0.5"/>
+    <rect x="30" y="23" width="150" height="12" fill="url(#fpBar)" rx="2"/>
+    <text x="235" y="33" font-family="'Courier New', monospace" font-size="9" fill="#888">376 COMMITS</text>
+    <!-- Stamina -->
+    <text x="0" y="52" font-family="'Courier New', monospace" font-size="10" fill="#44bb44">ST</text>
+    <rect x="30" y="43" width="200" height="12" fill="#1a1a1a" rx="2" stroke="#333" stroke-width="0.5"/>
+    <rect x="30" y="43" width="190" height="12" fill="url(#stamBar)" rx="2"/>
+    <text x="235" y="53" font-family="'Courier New', monospace" font-size="9" fill="#888">HUMANITY OK</text>
+  </g>
+
+  <!-- Divider -->
+  <line x1="50" y1="105" x2="750" y2="105" stroke="#5a4510" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- Character info (left side) -->
+  <g transform="translate(60, 120)">
+    <!-- Small shield icon -->
+    <path d="M 0,0 L 12,0 L 12,14 L 6,18 L 0,14 Z" fill="none" stroke="#8b6914" stroke-width="1"/>
+    <line x1="6" y1="2" x2="6" y2="16" stroke="#8b6914" stroke-width="0.5"/>
+    <line x1="2" y1="7" x2="10" y2="7" stroke="#8b6914" stroke-width="0.5"/>
+    <text x="22" y="12" font-family="'Courier New', monospace" font-size="12" fill="#daa520">NAME</text>
+    <text x="110" y="12" font-family="'Courier New', monospace" font-size="12" fill="#cccccc">Shlok Patel (LAN-SHLOK)</text>
+  </g>
+  <g transform="translate(60, 148)">
+    <!-- Staff icon -->
+    <line x1="6" y1="0" x2="6" y2="18" stroke="#8b6914" stroke-width="1.5"/>
+    <circle cx="6" cy="0" r="3" fill="none" stroke="#daa520" stroke-width="0.8"/>
+    <text x="22" y="12" font-family="'Courier New', monospace" font-size="12" fill="#daa520">CLASS</text>
+    <text x="110" y="12" font-family="'Courier New', monospace" font-size="12" fill="#cccccc">Sorcerer / Cleric</text>
+  </g>
+  <g transform="translate(60, 176)">
+    <!-- Sun icon (Covenant) -->
+    <circle cx="6" cy="7" r="4" fill="none" stroke="#daa520" stroke-width="1"/>
+    <line x1="6" y1="0" x2="6" y2="-2" stroke="#daa520" stroke-width="0.8"/>
+    <line x1="6" y1="14" x2="6" y2="16" stroke="#daa520" stroke-width="0.8"/>
+    <line x1="0" y1="7" x2="-2" y2="7" stroke="#daa520" stroke-width="0.8"/>
+    <line x1="12" y1="7" x2="14" y2="7" stroke="#daa520" stroke-width="0.8"/>
+    <text x="22" y="12" font-family="'Courier New', monospace" font-size="12" fill="#daa520">COVENANT</text>
+    <text x="110" y="12" font-family="'Courier New', monospace" font-size="12" fill="#cccccc">Heirs of the Sun</text>
+  </g>
+  <g transform="translate(60, 204)">
+    <!-- Compass/quest icon -->
+    <polygon points="6,0 9,6 6,12 3,6" fill="none" stroke="#daa520" stroke-width="0.8"/>
+    <circle cx="6" cy="6" r="1.5" fill="#daa520"/>
+    <text x="22" y="12" font-family="'Courier New', monospace" font-size="12" fill="#daa520">QUEST</text>
+    <text x="110" y="12" font-family="'Courier New', monospace" font-size="12" fill="#cccccc">Seeking Internship &amp; Expanding Stack</text>
+  </g>
+
+  <!-- Divider -->
+  <line x1="50" y1="230" x2="750" y2="230" stroke="#5a4510" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- Bonfire activities row -->
+  <g transform="translate(60, 245)">
+    <!-- Small bonfire icon -->
+    <path d="M 5,12 Q 2,5 5,0 Q 8,5 5,12" fill="#cc4400" opacity="0.7"/>
+    <line x1="5" y1="12" x2="5" y2="16" stroke="#666" stroke-width="1"/>
+    <text x="18" y="14" font-family="'Courier New', monospace" font-size="11" fill="#666">BONFIRE:</text>
+    <text x="90" y="14" font-family="'Courier New', monospace" font-size="11" fill="#999">Anime &amp; Sitcoms</text>
+    <text x="250" y="14" font-family="'Courier New', monospace" font-size="11" fill="#666">|</text>
+    <text x="265" y="14" font-family="'Courier New', monospace" font-size="11" fill="#999">Music</text>
+    <text x="325" y="14" font-family="'Courier New', monospace" font-size="11" fill="#666">|</text>
+    <text x="340" y="14" font-family="'Courier New', monospace" font-size="11" fill="#999">Beyblade</text>
+    <text x="430" y="14" font-family="'Courier New', monospace" font-size="11" fill="#666">|</text>
+    <text x="445" y="14" font-family="'Courier New', monospace" font-size="11" fill="#999">Pokemon</text>
+  </g>
 </svg>

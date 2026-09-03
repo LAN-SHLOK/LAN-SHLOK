@@ -1,39 +1,91 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="100" viewBox="0 0 800 100">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="160" viewBox="0 0 800 160">
   <defs>
-    <linearGradient id="titleBg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#1a1008;stop-opacity:1"/>
-      <stop offset="50%" style="stop-color:#0d0d0d;stop-opacity:1"/>
-      <stop offset="100%" style="stop-color:#1a1008;stop-opacity:1"/>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a08"/>
+      <stop offset="50%" style="stop-color:#12100a"/>
+      <stop offset="100%" style="stop-color:#0a0a08"/>
     </linearGradient>
-    <linearGradient id="goldText" x1="0%" y1="0%" x2="0%" y2="100%">
+    <linearGradient id="gold" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" style="stop-color:#f0d060"/>
       <stop offset="50%" style="stop-color:#daa520"/>
       <stop offset="100%" style="stop-color:#8b6914"/>
     </linearGradient>
-    <linearGradient id="borderFade" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#daa520;stop-opacity:0"/>
-      <stop offset="20%" style="stop-color:#daa520;stop-opacity:0.8"/>
-      <stop offset="50%" style="stop-color:#f0d060;stop-opacity:1"/>
-      <stop offset="80%" style="stop-color:#daa520;stop-opacity:0.8"/>
-      <stop offset="100%" style="stop-color:#daa520;stop-opacity:0"/>
+    <linearGradient id="flame1" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#cc3300"/>
+      <stop offset="40%" style="stop-color:#ff6600"/>
+      <stop offset="70%" style="stop-color:#ffaa00"/>
+      <stop offset="100%" style="stop-color:#ffdd44;stop-opacity:0.6"/>
     </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="2" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
+    <linearGradient id="flame2" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#991100"/>
+      <stop offset="50%" style="stop-color:#cc4400"/>
+      <stop offset="100%" style="stop-color:#ff8800;stop-opacity:0.3"/>
+    </linearGradient>
+    <radialGradient id="emberGlow" cx="50%" cy="70%" r="50%">
+      <stop offset="0%" style="stop-color:#ff6600;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#ff6600;stop-opacity:0"/>
+    </radialGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="softGlow"><feGaussianBlur stdDeviation="1.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
-  <rect width="800" height="100" fill="url(#titleBg)" rx="4"/>
-  <!-- Top border -->
-  <line x1="50" y1="8" x2="750" y2="8" stroke="url(#borderFade)" stroke-width="1"/>
-  <!-- Bottom border -->
-  <line x1="50" y1="92" x2="750" y2="92" stroke="url(#borderFade)" stroke-width="1"/>
-  <!-- Corner ornaments -->
-  <polygon points="40,8 50,3 50,13" fill="#8b6914" opacity="0.7"/>
-  <polygon points="760,8 750,3 750,13" fill="#8b6914" opacity="0.7"/>
-  <polygon points="40,92 50,87 50,97" fill="#8b6914" opacity="0.7"/>
-  <polygon points="760,92 750,87 750,97" fill="#8b6914" opacity="0.7"/>
-  <!-- Name -->
-  <text x="400" y="48" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="36" font-weight="bold" fill="url(#goldText)" filter="url(#glow)" letter-spacing="8">SHLOK PATEL</text>
+  <!-- Background -->
+  <rect width="800" height="160" fill="url(#bg)"/>
+  <!-- Ornate double border -->
+  <rect x="15" y="8" width="770" height="144" fill="none" rx="3" stroke="#8b6914" stroke-width="1.5"/>
+  <rect x="20" y="12" width="760" height="136" fill="none" rx="2" stroke="#5a4510" stroke-width="0.5"/>
+  <!-- Corner ornaments - top left -->
+  <path d="M 15,25 Q 5,8 22,8" fill="none" stroke="#daa520" stroke-width="1.5"/>
+  <circle cx="15" cy="8" r="3" fill="#8b6914"/>
+  <!-- Corner ornaments - top right -->
+  <path d="M 785,25 Q 795,8 778,8" fill="none" stroke="#daa520" stroke-width="1.5"/>
+  <circle cx="785" cy="8" r="3" fill="#8b6914"/>
+  <!-- Corner ornaments - bottom left -->
+  <path d="M 15,135 Q 5,152 22,152" fill="none" stroke="#daa520" stroke-width="1.5"/>
+  <circle cx="15" cy="152" r="3" fill="#8b6914"/>
+  <!-- Corner ornaments - bottom right -->
+  <path d="M 785,135 Q 795,152 778,152" fill="none" stroke="#daa520" stroke-width="1.5"/>
+  <circle cx="785" cy="152" r="3" fill="#8b6914"/>
+  <!-- Left sword -->
+  <g transform="translate(120, 80) rotate(-15)">
+    <!-- blade -->
+    <rect x="-2" y="-50" width="4" height="55" fill="#aaaaaa" rx="1"/>
+    <polygon points="0,-55 -4,-50 4,-50" fill="#cccccc"/>
+    <!-- guard -->
+    <rect x="-12" y="5" width="24" height="4" fill="#8b6914" rx="1"/>
+    <!-- grip -->
+    <rect x="-2" y="9" width="4" height="18" fill="#4a3000"/>
+    <!-- pommel -->
+    <circle cx="0" cy="30" r="4" fill="#8b6914"/>
+  </g>
+  <!-- Right sword (mirrored) -->
+  <g transform="translate(680, 80) rotate(15)">
+    <rect x="-2" y="-50" width="4" height="55" fill="#aaaaaa" rx="1"/>
+    <polygon points="0,-55 -4,-50 4,-50" fill="#cccccc"/>
+    <rect x="-12" y="5" width="24" height="4" fill="#8b6914" rx="1"/>
+    <rect x="-2" y="9" width="4" height="18" fill="#4a3000"/>
+    <circle cx="0" cy="30" r="4" fill="#8b6914"/>
+  </g>
+  <!-- Center bonfire -->
+  <g transform="translate(400, 110)">
+    <!-- ember glow -->
+    <circle cx="0" cy="-15" r="30" fill="url(#emberGlow)"/>
+    <!-- coiled sword in fire -->
+    <rect x="-1.5" y="-55" width="3" height="40" fill="#888" rx="0.5"/>
+    <polygon points="0,-60 -3,-55 3,-55" fill="#aaa"/>
+    <rect x="-8" y="-17" width="16" height="3" fill="#666" rx="1"/>
+    <!-- fire -->
+    <path d="M 0,-35 Q -12,-20 -8,-5 Q -4,5 0,-2 Q 4,5 8,-5 Q 12,-20 0,-35" fill="url(#flame1)" filter="url(#glow)" opacity="0.9"/>
+    <path d="M 0,-30 Q -8,-18 -5,-5 Q -2,2 0,-3 Q 2,2 5,-5 Q 8,-18 0,-30" fill="url(#flame2)" opacity="0.7"/>
+    <ellipse cx="0" cy="0" rx="10" ry="3" fill="#331100" opacity="0.5"/>
+    <!-- logs -->
+    <line x1="-12" y1="2" x2="12" y2="-2" stroke="#4a3520" stroke-width="3" stroke-linecap="round"/>
+    <line x1="-10" y1="-1" x2="10" y2="3" stroke="#3d2d18" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <!-- Title text -->
+  <text x="400" y="55" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="bold" fill="url(#gold)" filter="url(#softGlow)" letter-spacing="6">SHLOK PATEL</text>
   <!-- Subtitle -->
-  <text x="400" y="74" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#8b8b8b" font-style="italic" letter-spacing="4">BEARER OF THE CURSE</text>
+  <text x="400" y="145" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#666" font-style="italic" letter-spacing="5">BEARER OF THE CURSE</text>
+  <!-- Small decorative lines beside title -->
+  <line x1="180" y1="50" x2="240" y2="50" stroke="#8b6914" stroke-width="0.8" opacity="0.5"/>
+  <line x1="560" y1="50" x2="620" y2="50" stroke="#8b6914" stroke-width="0.8" opacity="0.5"/>
 </svg>
