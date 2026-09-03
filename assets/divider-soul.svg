@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="28" viewBox="0 0 800 28">
+  <defs>
+    <linearGradient id="fL" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#daa520;stop-opacity:0"/>
+      <stop offset="100%" style="stop-color:#daa520;stop-opacity:0.7"/>
+    </linearGradient>
+    <linearGradient id="fR" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#daa520;stop-opacity:0.7"/>
+      <stop offset="100%" style="stop-color:#daa520;stop-opacity:0"/>
+    </linearGradient>
+    <radialGradient id="soul" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#66ccff;stop-opacity:0.9"/>
+      <stop offset="40%" style="stop-color:#3399cc;stop-opacity:0.7"/>
+      <stop offset="100%" style="stop-color:#1166aa;stop-opacity:0"/>
+    </radialGradient>
+    <filter id="sg"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <line x1="60" y1="14" x2="365" y2="14" stroke="url(#fL)" stroke-width="0.8"/>
+  <!-- Floating soul orb -->
+  <circle cx="400" cy="14" r="8" fill="url(#soul)" filter="url(#sg)"/>
+  <circle cx="400" cy="14" r="3" fill="#aaddff" opacity="0.8"/>
+  <circle cx="398" cy="12" r="1" fill="#ffffff" opacity="0.6"/>
+  <!-- Small trailing souls -->
+  <circle cx="378" cy="14" r="2.5" fill="url(#soul)" opacity="0.4" filter="url(#sg)"/>
+  <circle cx="422" cy="14" r="2.5" fill="url(#soul)" opacity="0.4" filter="url(#sg)"/>
+  <circle cx="368" cy="14" r="1.5" fill="url(#soul)" opacity="0.25"/>
+  <circle cx="432" cy="14" r="1.5" fill="url(#soul)" opacity="0.25"/>
+  <line x1="435" y1="14" x2="740" y2="14" stroke="url(#fR)" stroke-width="0.8"/>
+</svg>

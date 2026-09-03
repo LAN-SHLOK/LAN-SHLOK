@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="30" viewBox="0 0 800 30">
+  <defs>
+    <linearGradient id="fL" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#daa520;stop-opacity:0"/>
+      <stop offset="100%" style="stop-color:#daa520;stop-opacity:0.8"/>
+    </linearGradient>
+    <linearGradient id="fR" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#daa520;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#daa520;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+  <line x1="60" y1="15" x2="360" y2="15" stroke="url(#fL)" stroke-width="0.8"/>
+  <!-- Crossed swords -->
+  <g transform="translate(400, 15)">
+    <!-- Left sword -->
+    <g transform="rotate(-30)">
+      <rect x="-1.2" y="-14" width="2.4" height="16" fill="#aaa" rx="0.5"/>
+      <polygon points="0,-16 -2,-14 2,-14" fill="#ccc"/>
+      <rect x="-5" y="2" width="10" height="2.5" fill="#8b6914" rx="0.8"/>
+      <rect x="-1" y="4.5" width="2" height="5" fill="#4a3000"/>
+      <circle cx="0" cy="11" r="2" fill="#8b6914"/>
+    </g>
+    <!-- Right sword -->
+    <g transform="rotate(30)">
+      <rect x="-1.2" y="-14" width="2.4" height="16" fill="#aaa" rx="0.5"/>
+      <polygon points="0,-16 -2,-14 2,-14" fill="#ccc"/>
+      <rect x="-5" y="2" width="10" height="2.5" fill="#8b6914" rx="0.8"/>
+      <rect x="-1" y="4.5" width="2" height="5" fill="#4a3000"/>
+      <circle cx="0" cy="11" r="2" fill="#8b6914"/>
+    </g>
+  </g>
+  <line x1="440" y1="15" x2="740" y2="15" stroke="url(#fR)" stroke-width="0.8"/>
+</svg>

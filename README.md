@@ -29,11 +29,11 @@
 
 <img src="assets/dialogue.svg" width="100%" alt="NPC Dialogue"/>
 
-<img src="assets/divider.svg" width="100%"/>
+<img src="assets/divider-swords.svg" width="100%"/>
 
 <img src="assets/status-panel.svg" width="100%" alt="Character Status"/>
 
-<img src="assets/divider.svg" width="100%"/>
+<img src="assets/divider-shield.svg" width="100%"/>
 
 <img src="assets/header-equipment.svg" width="100%" alt="Equipment"/>
 
@@ -83,7 +83,7 @@
   <img src="https://skillicons.dev/icons?i=github,vscode,figma,blender&theme=dark" alt="Tools"/>
 </a>
 
-<img src="assets/divider.svg" width="100%"/>
+<img src="assets/divider-estus.svg" width="100%"/>
 
 <img src="assets/header-bosses.svg" width="100%" alt="Boss Souls"/>
 
@@ -106,7 +106,7 @@
 
 <div align="center">
 
-<img src="assets/divider.svg" width="100%"/>
+<img src="assets/divider-soul.svg" width="100%"/>
 
 <img src="assets/header-souls.svg" width="100%" alt="Soul Memory"/>
 
@@ -119,7 +119,7 @@
 
 <img src="https://streak-stats.demolab.com?user=LAN-SHLOK&hide_border=true&background=0D1117&stroke=daa520&ring=cc0000&fire=daa520&currStreakLabel=daa520&sideLabels=cccccc&currStreakNum=cccccc&sideNums=cc0000&dates=666666" width="60%" alt="Streak"/>
 
-<img src="assets/divider.svg" width="100%"/>
+<img src="assets/divider-swords.svg" width="100%"/>
 
 <img src="assets/header-summon.svg" width="100%" alt="Summon Sign"/>
 

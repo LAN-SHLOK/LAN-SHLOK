@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="28" viewBox="0 0 800 28">
+  <defs>
+    <linearGradient id="fL" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#daa520;stop-opacity:0"/>
+      <stop offset="100%" style="stop-color:#daa520;stop-opacity:0.7"/>
+    </linearGradient>
+    <linearGradient id="fR" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#daa520;stop-opacity:0.7"/>
+      <stop offset="100%" style="stop-color:#daa520;stop-opacity:0"/>
+    </linearGradient>
+    <linearGradient id="estus" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#cc6600"/>
+      <stop offset="50%" style="stop-color:#ffaa00"/>
+      <stop offset="100%" style="stop-color:#ffdd44;stop-opacity:0.7"/>
+    </linearGradient>
+    <filter id="eg"><feGaussianBlur stdDeviation="1" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <line x1="60" y1="14" x2="372" y2="14" stroke="url(#fL)" stroke-width="0.8"/>
+  <!-- Estus Flask -->
+  <g transform="translate(400, 14)">
+    <!-- Flask body -->
+    <path d="M -5,-10 Q -7,-8 -7,0 Q -7,8 -4,10 L 4,10 Q 7,8 7,0 Q 7,-8 5,-10 Z" fill="#1a1508" stroke="#8b6914" stroke-width="1"/>
+    <!-- Liquid -->
+    <path d="M -5,-2 Q -5,7 -3,9 L 3,9 Q 5,7 5,-2 Z" fill="url(#estus)" filter="url(#eg)" opacity="0.85"/>
+    <!-- Flask neck -->
+    <rect x="-3" y="-14" width="6" height="5" fill="#1a1508" stroke="#8b6914" stroke-width="0.8" rx="1"/>
+    <!-- Cork -->
+    <rect x="-2" y="-16" width="4" height="3" fill="#5a4510" rx="1"/>
+    <!-- Shine -->
+    <line x1="-3" y1="-4" x2="-3" y2="4" stroke="#ffdd88" stroke-width="0.5" opacity="0.3"/>
+  </g>
+  <line x1="428" y1="14" x2="740" y2="14" stroke="url(#fR)" stroke-width="0.8"/>
+</svg>
