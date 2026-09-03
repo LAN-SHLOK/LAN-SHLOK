@@ -121,17 +121,30 @@
 
 <img src="assets/divider-estus.svg" width="100%"/>
 
-<img src="assets/header-trophies.svg" width="100%" alt="Achievements"/>
-
-<br><br>
-
-<img src="https://github-profile-trophy.vercel.app/?username=LAN-SHLOK&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=10" width="90%" alt="Trophies"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=LAN-SHLOK&theme=github_dark" width="90%" alt="Profile Details"/>
 
 <br>
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote=Seek+strength.+The+rest+will+follow.&author=Vendrick,+Dark+Souls+II" width="60%" alt="Quote"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=LAN-SHLOK&theme=github_dark" height="160" alt="Repos per Language"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=LAN-SHLOK&theme=github_dark&utcOffset=5.5" height="160" alt="Productive Time"/>
 
-<img src="assets/divider-swords.svg" width="100%"/>
+<img src="assets/divider-soul.svg" width="100%"/>
+
+<img src="assets/header-snake.svg" width="100%" alt="Contribution Snake"/>
+
+<br><br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LAN-SHLOK/LAN-SHLOK/output/github-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/LAN-SHLOK/LAN-SHLOK/output/github-snake.svg"/>
+  <img alt="Contribution Snake" src="https://raw.githubusercontent.com/LAN-SHLOK/LAN-SHLOK/output/github-snake-dark.svg" width="100%"/>
+</picture>
+
+<br>
+
+*The snake will appear after you trigger the GitHub Action (go to Actions tab > Generate Snake > Run workflow)*
+
+<img src="assets/divider-shield.svg" width="100%"/>
 
 <img src="assets/header-summon.svg" width="100%" alt="Summon Sign"/>
 
@@ -144,6 +157,11 @@
 [![GitHub](https://img.shields.io/badge/GitHub-LAN--SHLOK-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/LAN-SHLOK)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Shlok_Patel-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shlok-patel-dev)
 [![Email](https://img.shields.io/badge/Email-shlokpatel699@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shlokpatel699@gmail.com)
+[![Spotify](https://img.shields.io/badge/Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/)
+
+<br>
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&quote=Seek+strength.+The+rest+will+follow.&author=Vendrick,+Dark+Souls+II" width="60%" alt="Quote"/>
 
 <br>
 
