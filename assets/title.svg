@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="100" viewBox="0 0 800 100">
+  <defs>
+    <linearGradient id="titleBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1008;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#0d0d0d;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#1a1008;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="goldText" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0d060"/>
+      <stop offset="50%" style="stop-color:#daa520"/>
+      <stop offset="100%" style="stop-color:#8b6914"/>
+    </linearGradient>
+    <linearGradient id="borderFade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#daa520;stop-opacity:0"/>
+      <stop offset="20%" style="stop-color:#daa520;stop-opacity:0.8"/>
+      <stop offset="50%" style="stop-color:#f0d060;stop-opacity:1"/>
+      <stop offset="80%" style="stop-color:#daa520;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#daa520;stop-opacity:0"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="800" height="100" fill="url(#titleBg)" rx="4"/>
+  <!-- Top border -->
+  <line x1="50" y1="8" x2="750" y2="8" stroke="url(#borderFade)" stroke-width="1"/>
+  <!-- Bottom border -->
+  <line x1="50" y1="92" x2="750" y2="92" stroke="url(#borderFade)" stroke-width="1"/>
+  <!-- Corner ornaments -->
+  <polygon points="40,8 50,3 50,13" fill="#8b6914" opacity="0.7"/>
+  <polygon points="760,8 750,3 750,13" fill="#8b6914" opacity="0.7"/>
+  <polygon points="40,92 50,87 50,97" fill="#8b6914" opacity="0.7"/>
+  <polygon points="760,92 750,87 750,97" fill="#8b6914" opacity="0.7"/>
+  <!-- Name -->
+  <text x="400" y="48" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="36" font-weight="bold" fill="url(#goldText)" filter="url(#glow)" letter-spacing="8">SHLOK PATEL</text>
+  <!-- Subtitle -->
+  <text x="400" y="74" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#8b8b8b" font-style="italic" letter-spacing="4">BEARER OF THE CURSE</text>
+</svg>

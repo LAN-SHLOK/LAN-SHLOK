@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="140" viewBox="0 0 800 140">
+  <defs>
+    <linearGradient id="panelBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#151510"/>
+      <stop offset="100%" style="stop-color:#0d0d0a"/>
+    </linearGradient>
+    <linearGradient id="goldBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b6914"/>
+      <stop offset="50%" style="stop-color:#daa520"/>
+      <stop offset="100%" style="stop-color:#8b6914"/>
+    </linearGradient>
+  </defs>
+  <!-- Panel background -->
+  <rect x="40" y="10" width="720" height="120" fill="url(#panelBg)" rx="3" stroke="url(#goldBorder)" stroke-width="1.2" opacity="0.95"/>
+  <!-- Inner border -->
+  <rect x="48" y="17" width="704" height="106" fill="none" rx="2" stroke="#8b6914" stroke-width="0.4" opacity="0.3"/>
+  <!-- Quote text -->
+  <text x="400" y="48" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#aaaaaa" font-style="italic">"Seeker of fire... I am Shlok Patel.</text>
+  <text x="400" y="70" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#aaaaaa" font-style="italic">A Sorcerer who weaves React spells, and a Cleric who</text>
+  <text x="400" y="92" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#aaaaaa" font-style="italic">commands the power of Python. My summon sign is placed...</text>
+  <text x="400" y="114" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#aaaaaa" font-style="italic">I seek worthy companions for an internship quest."</text>
+</svg>
