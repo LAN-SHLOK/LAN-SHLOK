@@ -9,19 +9,19 @@
       <stop offset="100%" style="stop-color:#daa520;stop-opacity:0"/>
     </linearGradient>
   </defs>
-  <line x1="30" y1="22" x2="260" y2="22" stroke="url(#fadeL)" stroke-width="0.8"/>
+  <line x1="30" y1="22" x2="210" y2="22" stroke="url(#fadeL)" stroke-width="0.8"/>
   <!-- Left sword icon -->
-  <g transform="translate(270, 22)">
+  <g transform="translate(225, 22)">
     <rect x="-1" y="-10" width="2" height="12" fill="#aaa" rx="0.5"/>
     <polygon points="0,-12 -1.5,-10 1.5,-10" fill="#ccc"/>
     <rect x="-5" y="2" width="10" height="2" fill="#8b6914" rx="0.5"/>
   </g>
   <text x="400" y="27" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#daa520" letter-spacing="5">EQUIPMENT &amp; ATTUNEMENT</text>
   <!-- Right sword icon -->
-  <g transform="translate(530, 22)">
+  <g transform="translate(575, 22)">
     <rect x="-1" y="-10" width="2" height="12" fill="#aaa" rx="0.5"/>
     <polygon points="0,-12 -1.5,-10 1.5,-10" fill="#ccc"/>
     <rect x="-5" y="2" width="10" height="2" fill="#8b6914" rx="0.5"/>
   </g>
-  <line x1="540" y1="22" x2="770" y2="22" stroke="url(#fadeR)" stroke-width="0.8"/>
+  <line x1="590" y1="22" x2="770" y2="22" stroke="url(#fadeR)" stroke-width="0.8"/>
 </svg>

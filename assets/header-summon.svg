@@ -10,9 +10,9 @@
     </linearGradient>
     <filter id="sg"><feGaussianBlur stdDeviation="1.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
-  <line x1="30" y1="22" x2="250" y2="22" stroke="url(#fadeL)" stroke-width="0.8"/>
+  <line x1="30" y1="22" x2="200" y2="22" stroke="url(#fadeL)" stroke-width="0.8"/>
   <!-- Left summon sign (glowing runic circle) -->
-  <g transform="translate(268, 22)" filter="url(#sg)">
+  <g transform="translate(220, 22)" filter="url(#sg)">
     <circle cx="0" cy="0" r="8" fill="none" stroke="#daa520" stroke-width="1" opacity="0.8"/>
     <circle cx="0" cy="0" r="5" fill="none" stroke="#ffaa00" stroke-width="0.5" opacity="0.5"/>
     <line x1="-4" y1="-4" x2="4" y2="4" stroke="#daa520" stroke-width="0.5" opacity="0.4"/>
@@ -21,12 +21,12 @@
   </g>
   <text x="400" y="27" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#daa520" letter-spacing="4">PLACE YOUR SUMMON SIGN</text>
   <!-- Right summon sign -->
-  <g transform="translate(532, 22)" filter="url(#sg)">
+  <g transform="translate(580, 22)" filter="url(#sg)">
     <circle cx="0" cy="0" r="8" fill="none" stroke="#daa520" stroke-width="1" opacity="0.8"/>
     <circle cx="0" cy="0" r="5" fill="none" stroke="#ffaa00" stroke-width="0.5" opacity="0.5"/>
     <line x1="-4" y1="-4" x2="4" y2="4" stroke="#daa520" stroke-width="0.5" opacity="0.4"/>
     <line x1="4" y1="-4" x2="-4" y2="4" stroke="#daa520" stroke-width="0.5" opacity="0.4"/>
     <circle cx="0" cy="0" r="1.5" fill="#ffcc00" opacity="0.6"/>
   </g>
-  <line x1="545" y1="22" x2="770" y2="22" stroke="url(#fadeR)" stroke-width="0.8"/>
+  <line x1="600" y1="22" x2="770" y2="22" stroke="url(#fadeR)" stroke-width="0.8"/>
 </svg>

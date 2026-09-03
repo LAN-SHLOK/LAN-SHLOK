@@ -9,19 +9,19 @@
       <stop offset="100%" style="stop-color:#daa520;stop-opacity:0"/>
     </linearGradient>
   </defs>
-  <line x1="30" y1="22" x2="280" y2="22" stroke="url(#fadeL)" stroke-width="0.8"/>
+  <line x1="30" y1="22" x2="270" y2="22" stroke="url(#fadeL)" stroke-width="0.8"/>
   <!-- Left trophy -->
-  <g transform="translate(292, 13)">
+  <g transform="translate(285, 13)">
     <path d="M 3,0 L 9,0 L 9,3 Q 12,3 12,6 Q 12,9 9,9 L 9,12 L 8,14 L 4,14 L 3,12 L 3,9 Q 0,9 0,6 Q 0,3 3,3 Z" fill="none" stroke="#daa520" stroke-width="0.8"/>
     <rect x="4" y="14" width="4" height="2" fill="#8b6914"/>
     <rect x="2" y="16" width="8" height="1.5" fill="#8b6914" rx="0.5"/>
   </g>
   <text x="400" y="27" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#daa520" letter-spacing="5">ACHIEVEMENTS</text>
   <!-- Right trophy -->
-  <g transform="translate(496, 13)">
+  <g transform="translate(505, 13)">
     <path d="M 3,0 L 9,0 L 9,3 Q 12,3 12,6 Q 12,9 9,9 L 9,12 L 8,14 L 4,14 L 3,12 L 3,9 Q 0,9 0,6 Q 0,3 3,3 Z" fill="none" stroke="#daa520" stroke-width="0.8"/>
     <rect x="4" y="14" width="4" height="2" fill="#8b6914"/>
     <rect x="2" y="16" width="8" height="1.5" fill="#8b6914" rx="0.5"/>
   </g>
-  <line x1="510" y1="22" x2="770" y2="22" stroke="url(#fadeR)" stroke-width="0.8"/>
+  <line x1="530" y1="22" x2="770" y2="22" stroke="url(#fadeR)" stroke-width="0.8"/>
 </svg>

@@ -15,17 +15,17 @@
     </linearGradient>
     <filter id="g"><feGaussianBlur stdDeviation="1" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
-  <line x1="30" y1="22" x2="300" y2="22" stroke="url(#fadeL)" stroke-width="0.8"/>
+  <line x1="30" y1="22" x2="280" y2="22" stroke="url(#fadeL)" stroke-width="0.8"/>
   <!-- Left bonfire -->
-  <g transform="translate(312, 20)">
+  <g transform="translate(295, 20)">
     <line x1="0" y1="6" x2="0" y2="0" stroke="#666" stroke-width="1.2"/>
     <path d="M 0,-8 Q -5,-3 -3,2 Q -1,5 0,1 Q 1,5 3,2 Q 5,-3 0,-8" fill="url(#fl)" filter="url(#g)"/>
   </g>
   <text x="400" y="27" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#daa520" letter-spacing="5">SOUL MEMORY</text>
   <!-- Right bonfire -->
-  <g transform="translate(488, 20)">
+  <g transform="translate(505, 20)">
     <line x1="0" y1="6" x2="0" y2="0" stroke="#666" stroke-width="1.2"/>
     <path d="M 0,-8 Q -5,-3 -3,2 Q -1,5 0,1 Q 1,5 3,2 Q 5,-3 0,-8" fill="url(#fl)" filter="url(#g)"/>
   </g>
-  <line x1="500" y1="22" x2="770" y2="22" stroke="url(#fadeR)" stroke-width="0.8"/>
+  <line x1="520" y1="22" x2="770" y2="22" stroke="url(#fadeR)" stroke-width="0.8"/>
 </svg>
