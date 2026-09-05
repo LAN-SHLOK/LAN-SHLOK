@@ -16,9 +16,9 @@ jobs:
         with:
           github_user_name: LAN-SHLOK
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-            dist/ocean.gif?color_snake=orange&color_dots=#0d1117,#1a1200,#332600,#664d00,#daa520
+            dist/github-snake.svg?color_snake=#cc3300&color_dots=#161b22,#3d1f00,#8a4500,#d46a00,#daa520
+            dist/github-snake-dark.svg?color_snake=#cc3300&color_dots=#0d1117,#2a1500,#5c2e00,#994d00,#daa520
+            dist/ocean.gif?color_snake=#cc3300&color_dots=#0d1117,#2a1500,#5c2e00,#994d00,#daa520
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:
