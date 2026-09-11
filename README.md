@@ -157,7 +157,6 @@
 [![GitHub](https://img.shields.io/badge/GitHub-LAN--SHLOK-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/LAN-SHLOK)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Shlok_Patel-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shlok-patel-dev)
 [![Email](https://img.shields.io/badge/Email-shlokpatel699@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shlokpatel699@gmail.com)
-[![Spotify](https://img.shields.io/badge/Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/)
 
 <br>
 
